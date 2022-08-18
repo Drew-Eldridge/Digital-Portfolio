@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ABOUT ME</title>
+    <link rel="stylesheet" href="../css/aboutMe.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <body>
+      <div id="topHeading"><h1>ABOUT ME</h1></div>
+      <div class="container">
+	<img class="drew" src="../images/drewAboutMe.jpg">
+	<div class="aboutMeBox">
+	  <div class="innerBoxes">
+	    <h2>Experience:</h2>
+	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel ultricies urna. Cras ligula nisl, venenatis vel nunc in, blandit tincidunt ex. Donec auctor vitae justo non mollis. Morbi eu ex efficitur, dapibus dolor ac, ullamcorper nulla. Curabitur et vehicula risus. Sed erat odio, euismod quis accumsan id, feugiat placerat ante..</p>
+	  </div>
+	  <div class="innerBoxes">
+	    <h2>Academic Acheivements:</h2>
+	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel ultricies urna. Cras ligula nisl, venenatis vel nunc in, blandit tincidunt ex. Donec auctor vitae justo non mollis. Morbi eu ex efficitur, dapibus dolor ac, ullamcorper nulla. Curabitur et vehicula risus. Sed erat odio, euismod quis accumsan id, feugiat placerat ante.</p>
+	  </div>
+	  <div class="innerBoxes">
+	    <h2>Projects:</h2>
+	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel ultricies urna. Cras ligula nisl, venenatis vel nunc in, blandit tincidunt ex. Donec auctor vitae justo non mollis. Morbi eu ex efficitur, dapibus dolor ac, ullamcorper nulla. Curabitur et vehicula risus. Sed erat odio, euismod quis accumsan id, feugiat placerat ante.</p>
+	  </div>
+	  <div class="innerBoxes">
+	    <h2>Activities:</h2>
+	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel ultricies urna. Cras ligula nisl, venenatis vel nunc in, blandit tincidunt ex. Donec auctor vitae justo non mollis. Morbi eu ex efficitur, dapibus dolor ac, ullamcorper nulla. Curabitur et vehicula risus. Sed erat odio, euismod quis accumsan id, feugiat placerat ante.</p>
+	  </div>
+	  <div class="innerBoxes">
+	    <h2>Skills:</h2>
+	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel ultricies urna. Cras ligula nisl, venenatis vel nunc in, blandit tincidunt ex. Donec auctor vitae justo non mollis. Morbi eu ex efficitur, dapibus dolor ac, ullamcorper nulla. Curabitur et vehicula risus. Sed erat odio, euismod quis accumsan id, feugiat placerat ante.</p>
+	  </div>
+	</div
+    </body>
+  </head>
+</html>

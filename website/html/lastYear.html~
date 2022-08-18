@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>LAST YEAR IN COMPUTER SCIENCE</title>
+    <link rel="stylesheet" href="../css/lastYear.css">
+    <link rel="stylesheet" href="../css/index.css">
+  </head>
+  <body>
+    <div class="heading">
+      <button class="redirectButtons" style="width:8%; float:left" onclick="location.href='index.html'">Back</button>
+      <div id="topHeading"><h1>LAST YEAR IN COMPUTER SCIENCE</h1></div>  
+  </body>
+</html>   

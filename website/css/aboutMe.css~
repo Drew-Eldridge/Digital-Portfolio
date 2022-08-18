@@ -1,0 +1,25 @@
+* {
+    background-color:black;
+    font-family: Helvetica, sans-serif;
+}
+.drew {
+    height:50vh;
+    width:15%;
+    object-fit:cover;
+}
+.containter {
+    width:90%;
+    margin-left:5%;
+    height:100%;
+}
+.aboutMeBox {
+    font-size:15px;
+    width:80%;
+    float:right;
+}
+.innerBoxes {
+    width:20%;
+    height:100%;
+    color:#ff3c1c;
+    float:right;
+}

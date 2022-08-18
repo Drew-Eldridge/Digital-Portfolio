@@ -1,0 +1,10 @@
+<title>WELCOME TO MY DIGITAL PORTFOLIO</title>
+<link rel="stylesheet" href="./index.css"/>
+
+<html>
+  <body>
+    <div id="background">
+      <h1>WELCOME TO MY DIGITAL PORTFOLIO</h1>      
+    </div>
+  </body>
+</html>

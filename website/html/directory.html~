@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CLASS DIRECTORY</title>
+    <link rel="stylesheet" href="../css/directory.css">
+    <link rel="stylesheet" href="../css/index.css">
+  </head>
+  <body>
+    <div id="topHeading"><h1>CLASS DIRECTORY<h1></div>
+    <h2>Computer Science II</h2>
+  </body>
+</html>   

@@ -1,0 +1,29 @@
+* {
+    background-color:black;
+    font-family: Helvetica, sans-serif;
+    color:#ff3c1c;
+}
+#topHeading {
+    font-size:36px;
+    text-align:center;
+    
+}
+.buttonsBox {
+    margin-top:18%;
+    height:10%;
+    width:50%;
+    margin-left:25%;
+}
+.redirectButtons {
+    border-color:#ff3c1c;
+    border-width:2px;
+    font-size:25px;
+    padding:5px;
+    border-radius:5%;
+    width:24%;
+}
+.heading {
+    width:90%;
+    margin-left:5%;
+    height:10%;
+}
