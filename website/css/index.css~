@@ -6,7 +6,7 @@
 #topHeading {
     font-size:36px;
     text-align:center;
-    
+    text-shadow: 0 0 8px #ff3c1c;    
 }
 .buttonsBox {
     margin-top:18%;
@@ -20,7 +20,9 @@
     font-size:25px;
     padding:5px;
     border-radius:5%;
-    width:24%;
+    width:23%;
+    box-shadow: 5px 5px 5px #ff3c1c;
+    margin:5px;
 }
 .heading {
     width:90%;

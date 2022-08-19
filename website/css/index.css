@@ -4,15 +4,26 @@
     color:#ff3c1c;
 }
 #topHeading {
-    font-size:36px;
+    font-size:520%;
     text-align:center;
-    text-shadow: 0 0 8px #ff3c1c;    
+    background:none;
+    float:center;
+    margin-top:5%;
+}
+h1 {
+    background:none;
+}
+.containerForHeading {
+    width:90%;
+    background:none;
+    margin-left:5%;
 }
 .buttonsBox {
-    margin-top:18%;
+    margin-top:5%;
     height:10%;
     width:50%;
     margin-left:25%;
+    background:none;
 }
 .redirectButtons {
     border-color:#ff3c1c;
@@ -20,12 +31,23 @@
     font-size:25px;
     padding:5px;
     border-radius:5%;
-    width:23%;
-    box-shadow: 5px 5px 5px #ff3c1c;
-    margin:5px
+    width:17.5%;
+    box-shadow:5px 5px 5px #ff3c1c;
+    background:none;
+    margin:5px;
+}
+.redirectButtons:hover {
+    background-color:gray;
+    transition:.1s;
 }
 .heading {
     width:90%;
     margin-left:5%;
     height:10%;
+    background:none;
+}
+body {
+    height:100%;
+    width:100%;
+    overflow:hidden
 }

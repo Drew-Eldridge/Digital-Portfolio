@@ -1,6 +1,14 @@
 * {
     background-color:black;
     font-family: Helvetica, sans-serif;
+    background:none;
+    color:#ff3c1c;
+}
+h2 {
+    background:none;
+}
+p {
+    background:none;
 }
 .drew {
     height:50vh;
@@ -8,19 +16,24 @@
     object-fit:cover;
     margin-left:1%;
 }
-.containter {
+.container {
     width:90%;
     margin-left:5%;
     height:100%;
+    margin-top:5%;
+    background:none;
 }
 .aboutMeBox {
     font-size:15px;
     width:80%;
     float:right;
+    background:none;
 }
 .innerBoxes {
-    width:20%;
+    width:18%;
     height:100%;
     color:#ff3c1c;
     float:right;
+    background:none;
+    margin:1%;
 }

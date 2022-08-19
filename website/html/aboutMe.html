@@ -4,35 +4,67 @@
     <title>ABOUT ME</title>
     <link rel="stylesheet" href="../css/aboutMe.css">
     <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/test.css">
     <body>
+      <section>
       <div class="heading">
-      <button class="redirectButtons" style="width:8%; float:left" onclick="location.href='index.html'">Back</button>
-      <div id="topHeading"><h1>ABOUT ME</h1></div>
+	<button class="redirectButtons" style="width:8%; float:left" onclick="location.href='index.html'">Back</button>
+	<div id="topHeading" style="font-size:260%"><h1 style="font-size:200%">ABOUT ME</h1></div>
       </div>
       <div class="container">
 	<img class="drew" src="../images/drewAboutMe.jpg">
 	<div class="aboutMeBox">
 	  <div class="innerBoxes">
 	    <h2>Experience:</h2>
-	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel ultricies urna. Cras ligula nisl, venenatis vel nunc in, blandit tincidunt ex. Donec auctor vitae justo non mollis. Morbi eu ex efficitur, dapibus dolor ac, ullamcorper nulla. Curabitur et vehicula risus. Sed erat odio, euismod quis accumsan id, feugiat placerat ante..</p>
+	    <p>I volunteer at many volunteering opportunies, involving band activities such as middle school all region; Merlin Maven Mentors, where I mentor students in Computer Science; Allen Community Outreach, where I stock shelves for the food pantry or I unload shipments for donations; and many other numerous volunteering opportunities. I also work at the restaurant Uncle Julio's as a host and have been working there for a couple months. This job helps me improve my communication skills as I have to work in a team and also interact with every customer that walks in the building.</p>
 	  </div>
 	  <div class="innerBoxes">
-	    <h2>Academic Acheivements:</h2>
-	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel ultricies urna. Cras ligula nisl, venenatis vel nunc in, blandit tincidunt ex. Donec auctor vitae justo non mollis. Morbi eu ex efficitur, dapibus dolor ac, ullamcorper nulla. Curabitur et vehicula risus. Sed erat odio, euismod quis accumsan id, feugiat placerat ante.</p>
+	    <h2>Family</h2>
+	    <p>I live with both my mom and dad as well as two dogs, Tootsie and Levi. I have a 21 year old brother but he lives with friends, though he lives close so I still see him a lot.</p>
 	  </div>
 	  <div class="innerBoxes">
-	    <h2>Projects:</h2>
-	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel ultricies urna. Cras ligula nisl, venenatis vel nunc in, blandit tincidunt ex. Donec auctor vitae justo non mollis. Morbi eu ex efficitur, dapibus dolor ac, ullamcorper nulla. Curabitur et vehicula risus. Sed erat odio, euismod quis accumsan id, feugiat placerat ante.</p>
+	    <h2>Hobbies:</h2>
+	    <p>I love to collect vinyls, and just listen to music in general. I love to play video games but my favorite hobby is just hanging out with friends. I love to read manga and watch anime as well as play instruments such as both electric and acoustic guitar, ukulele, euphonium, baritone, bugle, and many other random instruments. I love to play sports but at the same time there is nothing I love more than to stay inside, just depends on my mood.</p>
 	  </div>
 	  <div class="innerBoxes">
 	    <h2>Activities:</h2>
-	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel ultricies urna. Cras ligula nisl, venenatis vel nunc in, blandit tincidunt ex. Donec auctor vitae justo non mollis. Morbi eu ex efficitur, dapibus dolor ac, ullamcorper nulla. Curabitur et vehicula risus. Sed erat odio, euismod quis accumsan id, feugiat placerat ante.</p>
+	    <p>The activity that fills up most of my time is band. I play the Euphonium in band and that is where I meet and see a lot if not most of my friends. I am in National Honor Society, Tri-M Music Honor Society, Merlin Maven Mentors, and an officer in cultural art club. I participate in other school activities such as pb&joy among others.</p>
 	  </div>
 	  <div class="innerBoxes">
-	    <h2>Skills:</h2>
-	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel ultricies urna. Cras ligula nisl, venenatis vel nunc in, blandit tincidunt ex. Donec auctor vitae justo non mollis. Morbi eu ex efficitur, dapibus dolor ac, ullamcorper nulla. Curabitur et vehicula risus. Sed erat odio, euismod quis accumsan id, feugiat placerat ante.</p>
+	    <h2>Plan for the Future:</h2>
+	    <p>My plans for my future are relatively unclear since I dont exactly know what colleges I will get into out of the ones that I want to apply to as well as I'm still unsure of my exact major once I get in. The top colleges on my list are UC Berkeley, Duke, Cal Tech, and Rice. The majors I am considering is computer science, computer engineering, or another type of engineering with computer science as a minor. For now I just want to have as much fun in highschool while I'm still here but still study hard.</p>
 	  </div>
-	</div
+	</div>
+</section>
+    <script>
+      window.onresize = function(){ location.reload(); }
+      function stars(){
+	  const count = 200;
+	  const section = document.querySelector('section');
+	  var i = 0;
+
+	  while(i < count){
+	      const star = document.createElement('i');
+	      const x = Math.floor(Math.random() * window.outerWidth)
+	      const y = Math.floor(Math.random() * window.outerHeight)
+
+	      const size = Math.random() * 4;
+	      star.style.left = x+'px';
+	      star.style.top = y+'px';
+	      star.style.width = 1+size+'px';
+	      star.style.height = 1+size+'px';
+
+	      const duration = Math.random() * 2;
+
+	      star.style.animationDuration = 2+duration+'s'; 
+	      star.style.animationDelay = duration+'s'; 
+	      
+	      section.appendChild(star); 
+	      i++
+	  }
+      }
+      stars();
+    </script>
     </body>
   </head>
 </html>

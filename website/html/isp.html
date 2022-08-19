@@ -4,29 +4,82 @@
     <title>2021-2022 ISP</title>
     <link rel="stylesheet" href="../css/isp.css"> 
     <link rel="stylesheet" href="../css/index.css"> 
+    <link rel="stylesheet" href="../css/test.css">
   </head>
-    <body>
-      <div class="heading">
+  <body>
+    <section style="overflow-y:scroll;height:110vh">
+      <div class="heading" style="margin-top:5%">
 	<button class="redirectButtons" style="width:8%; float:left" onclick="location.href='index.html'">Back</button>
-	<div id="topHeading"><h1>2021-2022 ISP PROJECT<h1></div>
+	<div id="topHeading" style="font-size:300%;"><h1>2021-2022 ISP PROJECT<h1></div>
       </div>
       <div class="ispcontainer">
-	<div class="insideBox">
+	<div class="insideBox" style="width:49%;margin-right:2%">
 	  <h2>Concept:</h2>
-	  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel ultricies urna. Cras ligula nisl, venenatis vel nunc in, blandit tincidunt ex. Donec auctor vitae justo non mollis. Morbi eu ex efficitur, dapibus dolor ac, ullamcorper nulla. Curabitur et vehicula risus. Sed erat odio, euismod quis accumsan id, feugiat placerat ante.</p>
+	  <p>The application will be a website/interactive program that will allow users to learn how programs are run by CPUs as well how CPUs work on a basic level. It uses a deconstructed 8-bit CPU so users can see all the parts working. It includes a guide for how CPUs work, an interactive page to input programs, a page to view the CPU executing programs via an embeded youtube livestream, and an FAQ page.</p>
 	</div>
-	<div class="insideBox">
+	<div class="insideBox" style="width:49%">
 	  <h2>Motivation:</h2>
-	  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel ultricies urna. Cras ligula nisl, venenatis vel nunc in, blandit tincidunt ex. Donec auctor vitae justo non mollis. Morbi eu ex efficitur, dapibus dolor ac, ullamcorper nulla. Curabitur et vehicula risus. Sed erat odio, euismod quis accumsan id, feugiat placerat ante.</p>
+	  <p>Our motivations for this website was that we wanted more people to learn about CPUs and more specifically 8-bit CPUs. We viewed it as something that could be very important for some people to learn if they are going into computers at all, as well as we felt we were targeting a niche since it is not a broadly known topic. Lastly we found it exciting to watch the programs play out right before your eyes.
+	  </p>
 	</div>
-	<div class="insideBox">
+	<div class="insideBox" style="height:auto">
 	  <h2>Code Segments and Explanations:</h2>
-	  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel ultricies urna. Cras ligula nisl, venenatis vel nunc in, blandit tincidunt ex. Donec auctor vitae justo non mollis. Morbi eu ex efficitur, dapibus dolor ac, ullamcorper nulla. Curabitur et vehicula risus. Sed erat odio, euismod quis accumsan id, feugiat placerat ante.</p>
+	  <div class="explanationBox">
+	    <img class="imgBox" src="../images/codeSnippetOne.png" style="float:left">
+	    <p style="float:right;width:50%">
+	      We utilized custom classes for storing each of our programs. Each instruction inputed is comprised of an address, an instruction, and a value as shown in the class instruction(). Each program is comprised of an id, and an array of sixteen instructions as shown in the class program(). The class programEncoder() converts the JSON.
+	    </p>
+	  </div>
+	  <div class="explanationBox">
+	    <p style="float:left;width:50%;width:25%">
+	      The three arrays programs, ids, currentIDs all store data. Programs keeps an array of all programs yet to be executed, ids keeps a list of all IDs whos programs are yet to be executed which correlates to their location in queue, and currentID is the next ID to be assigned. The function processInputVal converts a blank value input to 0000 so it runs without error. The function processInputInstruct converts a blank value input to NOP so it runs without error.
+	    </p>
+	      <img class="imgBox" src="../images/codeSnippetTwo.png" style="float:right;width:74%;height:auto;margin-left:1%;margin-right:0">
+	  </div>
+	  <div class="explanationBox">
+	    <img class="imgBox" src="../images/codeSnippetFour.png" style="float:left">
+	    <p style="float:right;width:50%">
+	      This bit of HTML allows us to not have to retype our code which is on every page such as the navbar, which allows us to save a lot of time and brain power by just having it carry over and extend from another file instead of copying it for every page.
+	  </div>
 	</div>
 	<div class="insideBox">
+	  <div style="width:45%;background:none;float:left">
 	  <h2>Conclusions:</h2>
-	  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel ultricies urna. Cras ligula nisl, venenatis vel nunc in, blandit tincidunt ex. Donec auctor vitae justo non mollis. Morbi eu ex efficitur, dapibus dolor ac, ullamcorper nulla. Curabitur et vehicula risus. Sed erat odio, euismod quis accumsan id, feugiat placerat ante.</p>
+	  <p>I loved the product from this project as well as the journey that led us to complete it. This project was equally educational in topics revolving around computer science, like HTML, CSS, and Javascript, but also just as importantly, topics revolving around our project like 8-bit CPUs. This project was extremely interesting to me and also extremely fun because I got to work on it with some great and intelligent friends that really helped out. Overall this project was immensely fun and I'd love to dive more into the topic of 8-bit CPUs later on in life. <br> <br>Group pictured on right, in order, Cooper, Sean, Me
+	  </p>
+	  </div>
+	  <img class="imgBox" src="../images/ddtispGroup.jpg" style="width:40%;margin-left:8%;margin-bottom:5%">
 	</div>
       </div>
+      </section>
+      <script>
+      window.onresize = function(){ location.reload(); }
+      function stars(){
+	  const count = 200;
+	  const section = document.querySelector('section');
+	  var i = 0;
+
+	  while(i < count){
+	      const star = document.createElement('i');
+	      const x = Math.floor(Math.random() * window.outerWidth)
+	      const y = Math.floor(Math.random() * window.outerHeight)
+
+	      const size = Math.random() * 4;
+	      star.style.left = x+'px';
+	      star.style.top = y+'px';
+	      star.style.width = 1+size+'px';
+	      star.style.height = 1+size+'px';
+
+	      const duration = Math.random() * 2;
+
+	      star.style.animationDuration = 2+duration+'s'; 
+	      star.style.animationDelay = duration+'s'; 
+	      
+	      section.appendChild(star); 
+	      i++
+	  }
+      }
+      stars();
+    </script>
     </body>
 </html>   
