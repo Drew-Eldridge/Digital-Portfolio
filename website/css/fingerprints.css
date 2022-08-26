@@ -2,7 +2,15 @@
     color:#ff3c1c;
     font-family: Helvetica, sans-serif;
 }
+p {
+    text-indent: 5%;
+    margin:.3%;
+    background:none
+}
 
+h2 {
+    background:none;
+}
 .paragraphBox {
     width:60%;
     margin-left:20%;
