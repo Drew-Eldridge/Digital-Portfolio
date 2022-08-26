@@ -3,16 +3,23 @@
     font-family: Helvetica, sans-serif;
 }
 p {
-    text-indent: 5%;
     margin:.3%;
     background:none
 }
-
+.paragraph {
+    text-indent:5%;
+    background:none;
+}
 h2 {
     background:none;
 }
 .paragraphBox {
     width:50%;
     margin-left:25%;
+    background:none;
+}
+.apa-reference {
+    padding-left: 36px;
+    text-indent: -36px;
     background:none;
 }
