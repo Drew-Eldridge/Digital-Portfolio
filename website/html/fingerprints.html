@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="utf-8">
     <title>FINGERPRINTS</title>
     <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="../css/stars.css">
     <link rel="stylesheet" href="../css/fingerprints.css">
   </head>
   <body>
-    <section style="overflow-y:scroll;height:110vh">
+    <section style="overflow-y:scroll;height:100vh">
       <div class="heading" style="margin-top:5%">
 	<button class="redirectButtons" style="width:8%; float:left" onclick="location.href='index.html'">Back</button>
 	<div id="topHeading" style="font-size:300%"><h1>FINGERPRINTS</h1></div>
@@ -68,11 +69,14 @@
 	<br>
 	<br>
 	<br>
+        <h3 style="background:none"> Flowchart on an algorithm to compare an authentic fingerprint with another retrieved from a browser</h3>
+	<img src="../images/fingerprintFlowchart.png" alt="" style="margin-bottom:5%">
       </div>
-    </section>
+    </section> 
     <script>
       window.onresize = function(){ location.reload(); }
-      function stars(){
+
+function stars(){
 	  const count = 200;
 	  const section = document.querySelector('section');
 	  var i = 0;
@@ -98,6 +102,8 @@
 	  }
       }
       stars();
+
     </script>
+
   </body>
 </html>
