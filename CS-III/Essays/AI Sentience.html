@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>AI</title>
+    <link rel="stylesheet" href="../../misc/css/index.css">
+    <link rel="stylesheet" href="../../misc/css/stars.css">
+  </head>
+  <body>
+    <section>
+      <div class="heading">
+	<button class="redirectButtons" style="width:8%; float:left" onclick="history.back()">Back</button>
+	<div id="topHeading" style="font-size:300%"><h1>AI Sentience</h1></div>
+      </div>
+      <div class="paragraphBox">
+      </div>
+    </section>
+    <script>
+      window.onresize = function(){ location.reload(); }
+      function stars(){
+	  const count = 200;
+	  const section = document.querySelector('section');
+	  var i = 0;
+
+	  while(i < count){
+	      const star = document.createElement('i');
+	      const x = Math.floor(Math.random() * window.outerWidth)
+	      const y = Math.floor(Math.random() * window.outerHeight)
+
+	      const size = Math.random() * 4;
+	      star.style.left = x+'px';
+	      star.style.top = y+'px';
+	      star.style.width = 1+size+'px';
+	      star.style.height = 1+size+'px';
+
+	      const duration = Math.random() * 2;
+
+	      star.style.animationDuration = 2+duration+'s'; 
+	      star.style.animationDelay = duration+'s'; 
+	      
+	      section.appendChild(star); 
+	      i++
+	  }
+      }
+      stars();
+    </script>
+  </body>
+</html>

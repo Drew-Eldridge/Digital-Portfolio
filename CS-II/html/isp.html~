@@ -4,13 +4,13 @@
     <meta charset="utf-8">
     <title>2021-2022 ISP</title>
     <link rel="stylesheet" href="../css/isp.css"> 
-    <link rel="stylesheet" href="../css/index.css"> 
-    <link rel="stylesheet" href="../css/stars.css">
+    <link rel="stylesheet" href="../../misc/css/index.css"> 
+    <link rel="stylesheet" href="../../misc/css/stars.css">
   </head>
   <body>
     <section style="overflow-y:scroll;height:110vh">
       <div class="heading" style="margin-top:5%">
-	<button class="redirectButtons" style="width:8%; float:left" onclick="location.href='index.html'">Back</button>
+	<button class="redirectButtons" style="width:8%; float:left" onclick="location.href='../../misc/html/index.html'">Back</button>
 	<div id="topHeading" style="font-size:300%;"><h1>2021-2022 ISP PROJECT</h1></div>
       </div>
       <div class="ispcontainer">

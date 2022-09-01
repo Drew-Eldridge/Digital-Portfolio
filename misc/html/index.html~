@@ -16,9 +16,12 @@
 	  <button class="redirectButtons" onclick="location.href='aboutMe.html'">About Me</button>
 	  <button class="redirectButtons" onclick="location.href='importance.html'">Portfolio Meaning</button>
 	  <button class="redirectButtons" onclick="location.href='directory.html'">Class Directory</button>
-	  <button class="redirectButtons" onclick="location.href='isp.html'">2021-2022 ISP</button>
-	  <button class="redirectButtons" onclick="location.href='lastYear.html'">Last Year in CS</button>
-	  <button class="redirectButtons" onclick="location.href='fingerprints.html'">Fingerprints</button>
+	  <button class="redirectButtons" onclick="location.href='../../CS-II/html/isp.html'">2021-2022 ISP</button>
+	  <button class="redirectButtons" onclick="location.href='../../CS-II/html/lastYear.html'">Last Year in CS</button>
+	  <button class="redirectButtons" onclick="location.href='../../CS-III/Essays/Fingerprints.html'">Fingerprints</button>
+	  <button class="redirectButtons" onclick="location.href='../../CS-III/Essays/AI\ Sentience.html'">AI Sentience</button>
+	  <button class="redirectButtons" onclick="location.href='../../CS-II/html/CSII.html'">Comp Sci II Home</button>
+	  <button class="redirectButtons" onclick="location.href='../../CS-III/html/CSIII.html'">Comp Sci III Home</button>
 	  <button class="redirectButtons" style="width:auto;margin-top:5%" onclick="location.href='https://drew-eldridge.github.io/website/html/'">https://drew-eldridge.github.io/website/html/</button>
 	</div>
       </div>

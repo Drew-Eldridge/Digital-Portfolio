@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>LAST YEAR IN COMPUTER SCIENCE</title>
+    <link rel="stylesheet" href="../css/lastYear.css">
+    <link rel="stylesheet" href="../../misc/css/index.css">
+    <link rel="stylesheet" href="../../misc/css/stars.css">
+  </head>
+  <body>
+    <section>
+    <div class="heading">
+      <button class="redirectButtons" style="width:8%; float:left" onclick="history.back()">Back</button>
+      <div id="topHeading" style="font-size:300%"><h1>LAST YEAR IN COMPUTER SCIENCE</h1></div>  
+    </div>
+    <div class="box">
+    <p>Last year in computer science II I learned many things. The main skills I learned, cultivated, and will continue to use were CSS, HTML, and Javascript. Throughout the year I also learned other skills such as basic web development, basic web design, how to use classes, how to use recursion, how to better apply functions, how to work in a team for computer science, and how to lead a team for computer science. There were countless skills that I learned in computer science and all of them will help me later on in life regardless of what I choose to do for a career because of the many applications that a lot of the skills have such as the communication I had to cultivate while working in a team. </p>
+      </div>
+    </section>
+    <script>
+      window.onresize = function(){ location.reload(); }
+      function stars(){
+	  const count = 200;
+	  const section = document.querySelector('section');
+	  var i = 0;
+
+	  while(i < count){
+	      const star = document.createElement('i');
+	      const x = Math.floor(Math.random() * window.outerWidth)
+	      const y = Math.floor(Math.random() * window.outerHeight)
+
+	      const size = Math.random() * 4;
+	      star.style.left = x+'px';
+	      star.style.top = y+'px';
+	      star.style.width = 1+size+'px';
+	      star.style.height = 1+size+'px';
+
+	      const duration = Math.random() * 2;
+
+	      star.style.animationDuration = 2+duration+'s'; 
+	      star.style.animationDelay = duration+'s'; 
+	      
+	      section.appendChild(star); 
+	      i++
+	  }
+      }
+      stars();
+    </script>
+  </body>
+</html>   

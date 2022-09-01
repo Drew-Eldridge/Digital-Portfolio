@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>WELCOME TO MY DIGITAL PORTFOLIO</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/stars.css">
+  </head>
+  <body>
+    <section>
+      <div class="containerForHeading">
+   	<div id="topHeading"><h1>WELCOME TO MY <br>DIGITAL PORTFOLIO</h1></div>
+	<h2 style="text-align:center;background:none;font-size:150%">BY DREW ELDRIDGE</h2>
+	<div class="buttonsBox">
+	  <button class="redirectButtons" onclick="location.href='aboutMe.html'">About Me</button>
+	  <button class="redirectButtons" onclick="location.href='importance.html'">Portfolio Meaning</button>
+	  <button class="redirectButtons" onclick="location.href='directory.html'">Class Directory</button>
+	  <button class="redirectButtons" onclick="location.href='../../CS-II/html/isp.html'">2021-2022 ISP</button>
+	  <button class="redirectButtons" onclick="location.href='../../CS-II/html/lastYear.html'">Last Year in CS</button>
+	  <button class="redirectButtons" onclick="location.href='../../CS-III/Essays/Fingerprints.html'">Fingerprints</button>
+	  <button class="redirectButtons" onclick="location.href='../../CS-III/Essays/AI%20Sentience.html'">AI Sentience</button>
+	  <button class="redirectButtons" onclick="location.href='../../CS-II/html/CSII.html'">Comp Sci II Home</button>
+	  <button class="redirectButtons" onclick="location.href='../../CS-III/html/CSIII.html'">Comp Sci III Home</button>
+	  <button class="redirectButtons" style="width:auto;margin-top:5%" onclick="location.href='https://drew-eldridge.github.io/website/html/'">https://drew-eldridge.github.io/website/html/</button>
+	</div>
+      </div>
+    </section>
+    <script>
+      window.onresize = function(){ location.reload(); }
+      function stars(){
+	  const count = 200;
+	  const section = document.querySelector('section');
+	  var i = 0;
+
+	  while(i < count){
+	      const star = document.createElement('i');
+	      const x = Math.floor(Math.random() * window.outerWidth)
+	      const y = Math.floor(Math.random() * window.outerHeight)
+
+	      const size = Math.random() * 4;
+	      star.style.left = x+'px';
+	      star.style.top = y+'px';
+	      star.style.width = 1+size+'px';
+	      star.style.height = 1+size+'px';
+
+	      const duration = Math.random() * 2;
+
+	      star.style.animationDuration = 2+duration+'s'; 
+	      star.style.animationDelay = duration+'s'; 
+	      
+	      section.appendChild(star); 
+	      i++
+	  }
+      }
+      stars();
+    </script>
+  </body>
+</html>

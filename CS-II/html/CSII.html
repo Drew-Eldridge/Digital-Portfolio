@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Computer Science II</title>
+    <link rel="stylesheet" href="../css/CSII.css">
+    <link rel="stylesheet" href="../../misc/css/stars.css">
+    <link rel="stylesheet" href="../../misc/css/index.css">
+  </head>
+  <body>
+    <section>
+      <div class="heading">
+	<button class="redirectButtons" style="width:8%; float:left" onclick="history.back()"><!-- onclick="location.href='../../misc/html/index.html'" -->Back</button>
+	<div id="topHeading" style="font-size:300%"><h1>Computer Science II</h1></div>
+      </div>
+      <div style="margin-left:25%;background:none">
+	<button class="redirectButtons" onclick="location.href='isp.html'">ISP</button>
+	<button class="redirectButtons" onclick="location.href='lastYear.html'">What I learned</button>
+      </div>
+    </section>
+    <script>
+      window.onresize = function(){ location.reload(); }
+      function stars(){
+	  const count = 200;
+	  const section = document.querySelector('section');
+	  var i = 0;
+
+	  while(i < count){
+	      const star = document.createElement('i');
+	      const x = Math.floor(Math.random() * window.outerWidth)
+	      const y = Math.floor(Math.random() * window.outerHeight)
+
+	      const size = Math.random() * 4;
+	      star.style.left = x+'px';
+	      star.style.top = y+'px';
+	      star.style.width = 1+size+'px';
+	      star.style.height = 1+size+'px';
+
+	      const duration = Math.random() * 2;
+
+	      star.style.animationDuration = 2+duration+'s'; 
+	      star.style.animationDelay = duration+'s'; 
+	      
+	      section.appendChild(star); 
+	      i++
+	  }
+      }
+      stars();
+    </script>
+  </body>
+</html>

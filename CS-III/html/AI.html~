@@ -1,12 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <link rel="stylesheet" href="../css/test.css">
+    <meta charset="utf-8">
+    <title>AI</title>
+    <link rel="stylesheet" href="../../misc/css/index.css">
+    <link rel="stylesheet" href="../../misc/css/stars.css">
   </head>
   <body>
     <section>
+      <div class="heading">
+	<button class="redirectButtons" style="width:8%; float:left" onclick="history.back()">Back</button>
+	<div id="topHeading" style="font-size:300%"><h1>AI</h1></div>
+      </div>
+      <div class="paragraphBox">
+      </div>
     </section>
     <script>
+      window.onresize = function(){ location.reload(); }
       function stars(){
 	  const count = 200;
 	  const section = document.querySelector('section');
@@ -14,8 +24,8 @@
 
 	  while(i < count){
 	      const star = document.createElement('i');
-	      const x = Math.floor(Math.random() * window.innerWidth)
-	      const y = Math.floor(Math.random() * window.innerHeight)
+	      const x = Math.floor(Math.random() * window.outerWidth)
+	      const y = Math.floor(Math.random() * window.outerHeight)
 
 	      const size = Math.random() * 4;
 	      star.style.left = x+'px';
