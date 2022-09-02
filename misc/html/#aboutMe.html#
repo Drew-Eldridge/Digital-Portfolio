@@ -38,7 +38,47 @@
 	  </div>
 	</div>
       </div>
-      </section>
-      <script src="../js/stars.js"></script>
+</section>
+    <script>
+      window.onresize = function(){ location.reload(); }
+      function stars(){
+	  const count = 200;
+	  const section = document.querySelector('section');
+	  var i = 0;
+
+	  while(i < count){
+	      const star = document.createElement('i');
+	      const x = Math.floor(Math.random() * window.outerWidth)
+	      const y = Math.floor(Math.random() * window.outerHeight)
+
+	      const size = Math.random() * 4;
+	      star.style.left = x+'px';
+	      star.style.top = y+'px';
+	      star.style.width = 1+size+'px';
+	      star.style.height = 1+size+'px';
+
+	      const duration = Math.random() * 2;
+
+	      star.style.animationDuration = 2+duration+'s'; 
+	      star.style.animationDelay = duration+'s'; 
+	      
+	      section.appendChild(star); 
+	      i++
+	  }
+      }
+      stars();
+    </script>
     </body>
 </html>
+
+
+cleawr
+clear
+fg
+clear
+clear
+jdjsjkdha oiossdjoisdahf
+ldskjaf\
+ldsadfjasdfjdfahjfadj
+adkfldsfaclear
+jjlikasdjfkjlljdajljsdaf90=uaewrohrew8rhlshdafjklsdajksdaffsadcdscleawrjidsalfhhkdsafhjjsdafljlsdhlfhaldhfasjjdfasjljalkfj;ljlkjljljlkjkljkljdskl;afjlk;jasdl;kfj;lkasdjf;laksdjf;aslkdjflaskdjf;lskdjf;laskdjf;alskdjf;lskdjf;alskdjf;alskdjf;laskdjf;laskdjf;alkdsjf;alskdjf;lkdj;alsdkjfa;lsdkjf;akdjf;lasdkjf;lkasdjf;laskdjf;alsdkjf;alskdfjsjidfailahsdf;lij
