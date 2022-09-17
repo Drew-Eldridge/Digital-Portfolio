@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>FINGERPRINTS</title>
+    <link rel="stylesheet" href="../../misc/css/index.css">
+    <link rel="stylesheet" href="../../misc/css/stars.css">
+    <link rel="stylesheet" href="../css/fingerprints.css">
+  </head>
+  <body>
+    <section>
+      <div class="heading">
+	<button class="redirectButtons" style="width:8%; float:left" onclick="location.href='../../misc/html/index.html'">Back</button>
+	<div id="topHeading" style="font-size:300%"><h1>Optimal Sorting</h1></div>
+      </div>
+      <div style="margin-left:15%">
+	<a href="https://github.com/NimoOR/AlphabeticalSorting/blob/main/sortListAlphabetically.py"><h2>Link To Github</h2></a>
+	<img src="./AlphabeticalSorting/flowchart.png" alt="">
+      </div>
+    </section>
+  </body>
+</html>
