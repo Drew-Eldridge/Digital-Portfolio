@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../css/fingerprints.css">
   </head>
   <body>
-    <section>
+    <section style="overflow-y:scroll">
       <div class="heading">
 	<button class="redirectButtons" style="width:8%; float:left" onclick="location.href='../../misc/html/index.html'">Back</button>
 	<div id="topHeading" style="font-size:300%"><h1>Optimal Sorting</h1></div>
@@ -17,6 +17,17 @@
 	<a href="https://github.com/NimoOR/AlphabeticalSorting/blob/main/sortListAlphabetically.py"><h2>Link To Github</h2></a>
 	<a href="https://docs.google.com/spreadsheets/d/1srBLFYVimXHhUTPjepYOGTaQZ0roKOTOvwqLLBbnq0w/edit?usp=sharing"><h2>Link To Google Sheet</h2></a>
 	<img src="./flowchart.png" alt="">
+      </div>
+      <div style="margin-left:15%;margin-bottom:5%;background:none">
+	<h1 style="font-size:70px;margin-top:3%">Sort Analysis</h1>
+	<a href="https://docs.google.com/spreadsheets/d/1ZcPhG-tIk7-yPXEbnEtCAasAuzahTq5gIQSUjBmEW30/edit?usp=sharing"><h2>Link to Testing SpreadSheet</h2></a>
+	<a href="https://github.com/Drew-Eldridge/BubbleSort.git"><h2>Link to Bubble Sort Github</h2></a>
+	<a href="https://github.com/Drew-Eldridge/InsertionSort.git"><h2>Link to Insertion Sort Github</h2></a>
+	<a href="https://github.com/Drew-Eldridge/SelectionSort.git"><h2>Link to Selection Sort Github</h2></a>
+	<img src="../images/Sort%20Analysis.png" style="width:80%" alt="">
+	<h2>Explanation:</h2>
+	<p style="margin-right:15%">This graph displays a lot of information which has a lot of explanations for them. One general piece of information about the graph is that google sheets connects the last two points in such a way that implies that the time it takes goes up then back down to get to all of the words in the dictionary, 102,401, when in fact that is not the case and is still a strictly increasing time function. The graph made indicates that it is an S shaped curve when in fact it is a continuous exponential curve. All of these sorting algorithms have a time complexity of O(n^2), which means that the number of operations increases quadratically, indicating the sharp increase of time that the sorting algorithm takes as the number of words increases. This would indicate why all of the graphs have a very similar shape where they all start off very very small, the times increasing relatively small as the numbers stay manageable but then as they continue to increase, so do the times. Starting with bubble sort, the red, blue, and yellow circle-marked lines.  Bubble sort works by iterating through the array and switching the two elements in adjacent indexes if they are out of order, and continuously iterating through the array until it is sorted. This would also explain why at 100,000 words, bubble sort actually core dumps, indicating that the sorting algorithm has crashed because of the huge increase in the number of operations, and because of the thousands of times that the algorithm has to iterate through the array, which takes a massive amount of time. This makes bubble sort very good at smaller numbers of words because of it’s efficiency, but this efficiency drops off after a sharp increase in words because of how the algorithm works. This also makes it so that bubble sort is relatively quick even with large numbers of words if they are in order because it just needs to iterate through the array to sort it. Moving on to insertion sort which is marked by the blue, red, and yellow triangle-marked lines, it works through essentially an optimized version of bubble sort. In insertion sort, the algorithm still iterates through the entire array, but it checks every element before its predecessor to see where it is not less than, all the way to the beginning if that is true, this process continues until the end of the array. This makes it so that overall insertion sort is quicker than bubble sort because it does not need to continuously iterate through the array. Insertion sort is extremely fast especially when all of the elements are sorted because it just needs to iterate through the array once and it is done. Lastly selection sort, marked by the square red, blue, and yellow lines. Selection sort works by iterating through the array, comparing the whole array to see what value is the lowest, then inputting that at the beginning. This makes selection sort slower in a lesser number of words, but as the number of words increases, selection sort is overall way faster than the other two sorting algorithms. Overall since the time complexities of all of these algorithms are the same, the exponential shape of the data is roughly the same between each other, but the magnitudes of these curves are massively different from sort to sort because of the differences between how the sorts work.
+	  </p>
       </div>
     </section>
     <script src="../../misc/js/stars.js">

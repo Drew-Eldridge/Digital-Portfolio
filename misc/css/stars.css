@@ -1,6 +1,7 @@
 section {
     justify-content: center;
     height:100vh;
+    overflow-y:scroll;
 }
 * {
     background:linear-gradient(135deg,#111,#222,#111);
