@@ -1,0 +1,21 @@
+.paragraphBox {
+    margin-left:15%;
+    background:none;
+    width:70%;
+}
+h2 {
+    background:none;
+    font-size:200%
+}
+p {
+    font-weight:bold;
+    font-family: 'Courier New', monospace;
+    font-size:2vh;
+    background:none;
+    margin-left:5%;
+    margin-right:5%;
+}
+.gantt {
+    width:100%;
+    margin-bottom:5%;
+}

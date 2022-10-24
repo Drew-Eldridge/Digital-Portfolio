@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>ISP Proposal</title>
+    <link rel="stylesheet" href="../../../misc/css/index.css">
+    <link rel="stylesheet" href="../../../misc/css/stars.css">
+    <link rel="stylesheet" href="../../css/ispProp.css">
+  </head>
+  <body>
+    <section>
+      <div class="heading">
+	<button class="redirectButtons" style="width:8%; float:left" onclick="location.href='../../misc/html/index.html'">Back</button>
+	<div id="topHeading" style="font-size:300%"><h1>ISP Proposal</h1></div>
+      </div>
+      <div class="paragraphBox">
+	<u><h2>IDENTITY</h2></u>
+	<p>
+	  A computer that will shut off if someone else besides the user looks at it, or if the user looks away.
+	</p>
+	<u><h2>PROBLEM</h2></u>
+	<p>
+	  As technology has progressed, the ability to remain anonymous has diminished along with it. While digital security is often the side of privacy that is most scrutinized and focused on, physical security is overlooked. This is where my product comes in. We have all experienced a little brother, a pesky classmate, an annoying stranger, a random onlooker, or just anyone who may want to peer on our screen when we don't want them too. This is the problem I am trying to solve.
+	</p>
+	<u><h2>SOLUTION</h2></u>
+	<p>
+	  My solution to this problem is to create a camera that can attach to a computer and make it shut off with a moments notice whenever someone else besides the user looks at the computer, or if the user looks away for too long.
+	</p>
+	<u><h2>TARGET MARKET</h2></u>
+	<p>
+	  My target market are people at work or school who are doing stuff that they should not be doing, or people in any setting that just want to be more safe with their technology usage.
+	</p>
+	<u><h2>COMPETITION</h2></u>
+	<p>
+	  There is virtually no competition for something as extreme as this, though there is lots of facial recognition security features which are being implemented such as face id on the iPhone, that could be considered competition.
+	</p>
+	<u><h2>REVENUE STREAMS</h2></u>
+	<p>
+	  The revenue stream is relatively straight forward, I can sell a camera which can plug into a computer and connect at the top of it which will run my code to make their computer secure. Also I can sell a program which people with laptops with cameras can download which will allow them to have the same security features while still maintaing their streamline laptop. 
+	</p>
+	<u><h2>MARKETING STREAMS</h2></u>
+	<p>
+	  I can market this product through sites like tiktok since I feel that a lot of users on those sort of platforms can relate to the problem that this product is attempting to solve. I could also try to get deals with products such as VPNs to see if they could advertise my product on their website since while we are not competitors we are in related fields and could benefit off of working together.
+	</p>
+	<u><h2>EXPENSES</h2></u>
+	<p>
+	  My expenses would mostly be the cameras if I choose to go with the cameras and not just with code that would run off of any camera. Besides that there is really no other expense since it is all software based. 
+	</p>
+	<u><h2>TEAM AND KEY ROLES</h2></u>
+	<p>
+	  There can be a head of the project (AKA ME), as well as a head software engineer, then just software engineers that help with the code.
+	</p>
+	<u><h2>MILESTONES</h2></u>
+      </div>
+    </section>
+    <script src="../../../misc/js/stars.js"></script>
+  </body>
+</html>

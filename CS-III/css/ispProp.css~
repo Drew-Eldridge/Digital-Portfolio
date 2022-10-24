@@ -1,0 +1,17 @@
+.paragraphBox {
+    margin-left:15%;
+    background:none;
+    width:70%;
+}
+h2 {
+    background:none;
+    font-size:200%
+}
+p {
+    background:none;
+    margin-left:5%;
+    margin-right:5%;
+}
+.gantt {
+    width:70%;
+}
