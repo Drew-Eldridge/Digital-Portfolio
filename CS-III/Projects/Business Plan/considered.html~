@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>CONSIDERED</title>
+    <link rel="stylesheet" href="../../../misc/css/index.css">
+    <link rel="stylesheet" href="../../../misc/css/stars.css">
+    <link rel="stylesheet" href="../../css/considered.css">
+  </head>
+  <body>
+    <section>
+      <div class="heading">
+	<button class="redirectButtons" style="width:8%; float:left" onclick="location.href='../../misc/html/index.html'">Back</button>
+	<div id="topHeading" style="font-size:300%"><h1>CONSIDERED</h1></div>
+      </div>
+      <div class="paragraphBox">
+	<h2>Plans Considered</h2>
+	<h3>1.</h3>
+	<a href="https://www.codermerlin.com/users/nimrod-ohayon-rozanes/Digital%20Portfolio/CS-III/Projects/Business%20Plan/index.html"><h6>https://www.codermerlin.com/users/nimrod-ohayon-rozanes/Digital%20Portfolio/CS-III/Projects/Business%20Plan/index.html</h6></a>
+	<p>
+	  This proposal was immediately very appealing to me. Firstly I am friends with Nimo and I would get along with him well, with great group chemistry. I find the idea of building a motorcyle very enticing along with how interesting I find the machinery, but I would mostly be doing hardware and I would like to code more than this project would allow. I would love to ride the motorcycle at the end and it has a very real purpose and it will be used.
+	</p>
+	<h3>2.</h3>
+	<a href="https://www.codermerlin.com/users/william-clymire/Digital%20Portfolio/CS-III/Projects/Business%20Plan/index.html"><h6>https://www.codermerlin.com/users/william-clymire/Digital%20Portfolio/CS-III/Projects/Business%20Plan/index.html</h6></a>
+	<p>
+	  I find the concept of this project very fun and something that matches up with the sort of idea that I made for my ISP project. I love that it merges software and hardware into a physical reaction. Also along the same lines as Nimo's project, I am very good friends with William so our chemistry and ability to delinate tasks effectively. The reason that I did not choose this project is that I find the idea of working with him in another class period as frustrating and I think I would want to work with less people than he has on his project.
+	</p>
+	<h3>3.</h3>
+	<a href="https://www.codermerlin.com/users/andrew-nguyen/Digital%20Portfolio/CS-II/Projects/Business%20Plan/index.html"><h6>https://www.codermerlin.com/users/andrew-nguyen/Digital%20Portfolio/CS-II/Projects/Business%20Plan/index.html</h6></a>
+	<p>
+	  I find this ISP very appealing because I can relate to the problem very heavily with indecisiveness in choosing food options. Because of this I think that I would actually use this app which is something that I find really cool. I think that this project is a great idea in general and is something that would be super fun to work on. I think I would not want to work on this project because I don't really know the ISP creator well, leading to poor team chemistry and awkwardness, as well as I think that that sort of app already exists in some formats.
+	</p>
+	<h3>4.</h3>
+	<a href="https://www.codermerlin.com/users/austin-dlugosch/Digital%20Portfolio/CS-II/Projects/Business%20Plan/index.html"><h6>https://www.codermerlin.com/users/austin-dlugosch/Digital%20Portfolio/CS-II/Projects/Business%20Plan/index.html</h6></a>
+	<p>
+	  I love the idea of this ISP because it is something that I find really funny. It matches up with the sort of idea that I would want to do with how it utilizes tracking to complete a certain task. I think that I maybe would not want to do this ISP because I hav enot worked with mechanics such as a motor to control the TV mount very much so it would be a huge learning experience on top of the facial recognition needed to learn. I think this idea is something that I would love to show off to friends and people in the future so I would like to work on it but I like the idea of my project better.
+	</p>
+	<h3>5.</h3>
+	<a href="https://www.codermerlin.com/users/brett-kaplan/Digital%20Portfolio/CS-II/Projects/Business%20Plan/index.html"><h6>https://www.codermerlin.com/users/brett-kaplan/Digital%20Portfolio/CS-II/Projects/Business%20Plan/index.html</h6></a>
+	<p>
+	  I think that the idea of this project is very interesting and something that has very real world applications to it. I also relate to the problem that they're attempting to fix a lot as a student that has to deal with long lunch lines. Again I do not know the creator very well so the group chemistry wouldn't be there. I think that I also would not want to work on it because I think it is almost futile unless a large percentage of the student body uses it which is extremely hard or impossible to accomplish.
+	</p>
+	<h3>6.</h3>
+	<a href="https://www.codermerlin.com/users/devin-wingfield/Digital%20Portfolio/CS-II/Projects/Business%20Plan/index.html"><h6>https://www.codermerlin.com/users/devin-wingfield/Digital%20Portfolio/CS-II/Projects/Business%20Plan/index.html</h6></a>
+	<p>
+	  This project is something that I think would be very helpful for many students across the world. I find this project to be very challenging but also very doable over the course of the whole year. I think that it is something that would've helped me a lot when I was first starting out in computer science. I think that while I find it useful I would not want to work on it becayse I find the conecpt pretty boring for me to code.
+	</p>
+	<h3>7.</h3>
+	<a href="https://www.codermerlin.com/users/du-chen/Digital%20Portfolio/CS-III/Projects/Business%20Plan/index.html"><h6>https://www.codermerlin.com/users/du-chen/Digital%20Portfolio/CS-III/Projects/Business%20Plan/index.html</h6></a>
+	<p>
+	  I find the idea of this project extremely fun and something that would be so new to me that it woul dbe a whole new world. Robotoics is something that I have always wanted to get into but have not so I would like to actually get into it.
+	</p>
+	<h3>8.</h3>
+	<a href="https://www.codermerlin.com/users/pranav-krishnan/Digital%20Portfolio/CS-II/Projects/Business%20Plan/index.html"><h6>https://www.codermerlin.com/users/pranav-krishnan/Digital%20Portfolio/CS-II/Projects/Business%20Plan/index.html</h6></a>
+	<p>
+	</p>
+	<h3>9.</h3>
+	<a href="https://www.codermerlin.com/users/reynard-gunawan/Digital%20Portfolio/CS-II/Projects/Business%20Plan/index.html"><h6>https://www.codermerlin.com/users/reynard-gunawan/Digital%20Portfolio/CS-II/Projects/Business%20Plan/index.html</h6></a>
+	<p>
+	</p>
+	<h3>Project Chosen:</h3>
+	<a href="https://www.codermerlin.com/users/andrew-eldridge/Digital%20Portfolio/CS-III/Projects/Business%20Plan/index.html"><h6>https://www.codermerlin.com/users/andrew-eldridge/Digital%20Portfolio/CS-III/Projects/Business%20Plan/index.html</h6></a>
+      </div>
+    </section>
+    <script src="../../../misc/js/stars.js"></script>
+  </body>
+</html>

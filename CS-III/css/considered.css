@@ -1,7 +1,7 @@
 .paragraphBox {
-    margin-left:15%;
+    margin-left:10%;
     background:none;
-    width:70%;
+    width:80%;
 }
 h2 {
     background:none;
@@ -10,13 +10,18 @@ h2 {
 h3 {
     background:none;
     margin-left:5%;
+}
+h6 {
+    background:none;
+    margin-left:10%;
+}
 p {
     font-weight:bold;
     font-family: 'Courier New', monospace;
     font-size:2vh;
     background:none;
-    margin-left:5%;
-    margin-right:5%;
+    margin-left:10%;
+    margin-right:10%;
 }
 .gantt {
     width:100%;
