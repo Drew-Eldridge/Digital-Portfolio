@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>ISP</title>
+    <link rel="stylesheet" href="../../../misc/css/index.css">
+    <link rel="stylesheet" href="../../../misc/css/stars.css">
+    <link rel="stylesheet" href="../css/fingerprints.css">
+  </head>
+  <body>
+    <section>
+      <div class="heading">
+	<button class="redirectButtons" style="width:8%; float:left" onclick="location.href='../../html/CSIII.html'">Back</button>
+	<div id="topHeading" style="font-size:300%"><h1>ISP</h1></div>
+      </div>
+      <div class="paragraphBox">
+	<h1>Description:</h1>
+	<p>As technology has progressed, the ability to remain anonymous has diminished along with it. While digital security is often the side of privacy that is most scrutinized and focused on, physical security is overlooked. This is where my product comes in. We have all experienced a little brother, a pesky classmate, an annoying stranger, a random onlooker, or just anyone who may want to peer on our screen when we don't want them too. This is the problem I am trying to solve. My product is the (Placeholder) which will fight the issue of privacy on technology by detecting when other users besides you look upon your screen when you are doing nefarious activities. When other people look at your screen my product will shut off your screen or switch your computer to a family friendly option. This product will target mysterious fellows who may have something to hide or people who just enjoy their privacy and would like to ensure that it stays that way.
+	</p>
+	<h1>Members:</h1>
+	<a href="">
+      </div>
+    </section>
+    <script src="../js/stars.js"></script>
+  </body>
+</html>
