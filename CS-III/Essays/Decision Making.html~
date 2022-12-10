@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Decision Making</title>
+    <link rel="stylesheet" href="../../misc/css/index.css">
+    <link rel="stylesheet" href="../../misc/css/stars.css">
+    <link rel="stylesheet" href="../css/essay.css">
+  </head>
+  <body>
+    <section>
+      <div class="heading">
+	<button class="redirectButtons" style="width:8%; float:left" onclick="location.href='../html/CSIII.html'">Back</button>
+      </div>
+	<div class="title">
+	  <h2>Decision Bias Essay</h2><br><br><h2>Drew Eldridge</h2><h2>Allen ISD STEAM Center</h2><h2>Advanced Computer Science III</h2><h2>Mr. Ben-yaakov</h2><h2>December 9, 2022</h2>
+	</div>
+      <div class="paragraphBox">
+	<p>
+      </div>
+    </section>
+  </body>
+</html>
