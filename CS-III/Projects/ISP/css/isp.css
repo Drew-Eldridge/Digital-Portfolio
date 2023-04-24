@@ -28,6 +28,10 @@ p {
     background:none;
     margin-left:6%;
 }
+  
+.imageBox {
+    width: 50%;    
+}
 .paragraph {
     margin:3%;
     background:none;
